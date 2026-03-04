@@ -1,10 +1,13 @@
+/*  
+  🏆 Snack 1
+  Hai ricevuto un dato generico da un'API, ma non sai di che tipo sia.
+  Controlla il tipo del dato e stampa il valore in modo corretto.
+  - Se è una stringa: stampala in maiuscolo
+  - Se è un numero: moltiplicalo per due e stampalo
+  - Se è un booleano: stampa “Sì” o “No” in base al suo valore
+  - In tutti gli altri casi: stampa “Tipo non supportato” 
+*/
 let data: unknown;
-
-// Test
-// data = "ciao";
-// data = 3;
-// data = true;
-// data = false;
 
 switch (typeof data) {
 
